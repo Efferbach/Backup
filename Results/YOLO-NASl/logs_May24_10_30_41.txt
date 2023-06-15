@@ -1,0 +1,61 @@
+[2023-05-24 10:15:58] INFO - super_gradients.common.crash_handler.crash_tips_setup - Crash tips is enabled. You can set your environment variable to CRASH_HANDLER=FALSE to disable it
+[2023-05-24 10:16:05] DEBUG - pip._internal.vcs.versioncontrol - Registered VCS backend: bzr
+[2023-05-24 10:16:05] DEBUG - pip._internal.vcs.versioncontrol - Registered VCS backend: git
+[2023-05-24 10:16:05] DEBUG - pip._internal.vcs.versioncontrol - Registered VCS backend: hg
+[2023-05-24 10:16:05] DEBUG - pip._internal.vcs.versioncontrol - Registered VCS backend: svn
+[2023-05-24 10:16:05] DEBUG - super_gradients.common.sg_loggers.clearml_sg_logger - Failed to import clearml
+[2023-05-24 10:16:05] DEBUG - super_gradients.modules - Failed to import pytorch_quantization: cannot import name 'Bottleneck' from partially initialized module 'super_gradients.training.models.classification_models.resnet' (most likely due to a circular import) (/usr/local/lib/python3.10/dist-packages/super_gradients/training/models/classification_models/resnet.py)
+[2023-05-24 10:16:05] DEBUG - hydra.core.utils - Setting JobRuntime:name=UNKNOWN_NAME
+[2023-05-24 10:16:05] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-05-24 10:16:05] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-05-24 10:16:05] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-05-24 10:16:06] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-05-24 10:16:06] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-05-24 10:16:06] WARNING - super_gradients.training.utils.quantization - Failed to import pytorch_quantization
+[2023-05-24 10:16:06] WARNING - super_gradients.training.utils.quantization.calibrator - Failed to import pytorch_quantization
+[2023-05-24 10:16:06] WARNING - super_gradients.training.utils.quantization.export - Failed to import pytorch_quantization
+[2023-05-24 10:16:06] WARNING - super_gradients.training.utils.quantization.selective_quantization_utils - Failed to import pytorch_quantization
+[2023-05-24 10:16:06] DEBUG - super_gradients.training.qat_trainer.qat_trainer - Failed to import pytorch_quantization:
+[2023-05-24 10:16:06] DEBUG - super_gradients.training.qat_trainer.qat_trainer - name 'QuantizedMetadata' is not defined
+[2023-05-24 10:16:06] DEBUG - super_gradients.sanity_check.env_sanity_check - pyparsing==2.4.7 does not satisfy requirement pyparsing==2.4.5
+[2023-05-24 10:16:06] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-05-24 10:16:06] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-05-24 10:16:07] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-05-24 10:18:26] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-05-24 10:18:27] INFO - super_gradients.training.utils.checkpoint_utils - License Notification: YOLO-NAS pre-trained weights are subjected to the specific license terms and conditions detailed in 
+https://github.com/Deci-AI/super-gradients/blob/master/LICENSE.YOLONAS.md
+By downloading the pre-trained weight files you agree to comply with these terms.
+[2023-05-24 10:30:38] INFO - super_gradients.training.sg_trainer.sg_trainer - Using EMA with params {'decay': 0.937, 'decay_type': 'threshold'}
+[2023-05-24 10:30:40] DEBUG - tensorflow - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+[2023-05-24 10:30:40] DEBUG - h5py._conv - Creating converter from 7 to 5
+[2023-05-24 10:30:40] DEBUG - h5py._conv - Creating converter from 5 to 7
+[2023-05-24 10:30:40] DEBUG - h5py._conv - Creating converter from 7 to 5
+[2023-05-24 10:30:40] DEBUG - h5py._conv - Creating converter from 5 to 7
+[2023-05-24 10:30:40] DEBUG - jaxlib.mlir._mlir_libs - Initializing MLIR with module: _site_initialize_0
+[2023-05-24 10:30:40] DEBUG - jaxlib.mlir._mlir_libs - Registering dialects from initializer <module 'jaxlib.mlir._mlir_libs._site_initialize_0' from '/usr/local/lib/python3.10/dist-packages/jaxlib/mlir/_mlir_libs/_site_initialize_0.so'>
+[2023-05-24 10:30:40] DEBUG - jax._src.path - etils.epath found. Using etils.epath for file I/O.
+[2023-05-24 10:30:41] INFO - numexpr.utils - NumExpr defaulting to 2 threads.
+[2023-05-24 10:30:45] INFO - super_gradients.training.utils.sg_trainer_utils - TRAINING PARAMETERS:
+    - Mode:                         Single GPU
+    - Number of GPUs:               1          (1 available on the machine)
+    - Dataset size:                 690        (len(train_set))
+    - Batch size per GPU:           8          (batch_size)
+    - Batch Accumulate:             1          (batch_accumulate)
+    - Total batch size:             8          (num_gpus * batch_size)
+    - Effective Batch size:         8          (num_gpus * batch_size * batch_accumulate)
+    - Iterations per epoch:         86         (len(train_loader))
+    - Gradient updates per epoch:   86         (len(train_loader) / batch_accumulate)
+
+[2023-05-24 10:30:45] INFO - super_gradients.training.sg_trainer.sg_trainer - Started training for 100 epochs (0/99)
+
+[2023-05-24 10:30:45] INFO - super_gradients.common.sg_loggers.base_sg_logger - [CLEANUP] - Successfully stopped system monitoring process
+[2023-05-24 10:34:06] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-05-24 10:34:07] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-05-24 10:34:07] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-05-24 10:35:09] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-05-24 10:35:10] INFO - super_gradients.training.utils.checkpoint_utils - License Notification: YOLO-NAS pre-trained weights are subjected to the specific license terms and conditions detailed in 
+https://github.com/Deci-AI/super-gradients/blob/master/LICENSE.YOLONAS.md
+By downloading the pre-trained weight files you agree to comply with these terms.
+[2023-05-24 10:35:20] INFO - super_gradients.training.sg_trainer.sg_trainer - Using EMA with params {'decay': 0.937, 'decay_type': 'threshold'}
+[2023-05-24 10:35:20] DEBUG - super_gradients.training.utils.sg_trainer_utils - "events.out.tfevents.1684924246.17a1807553a4.22009.1" will not be deleted
+[2023-05-24 10:35:20] DEBUG - super_gradients.training.utils.sg_trainer_utils - "events.out.tfevents.1684924241.17a1807553a4.22009.0" will not be deleted

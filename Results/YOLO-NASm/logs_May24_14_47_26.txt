@@ -1,0 +1,29 @@
+[2023-05-24 14:47:28] INFO - super_gradients.training.utils.sg_trainer_utils - TRAINING PARAMETERS:
+    - Mode:                         Single GPU
+    - Number of GPUs:               1          (1 available on the machine)
+    - Dataset size:                 690        (len(train_set))
+    - Batch size per GPU:           8          (batch_size)
+    - Batch Accumulate:             1          (batch_accumulate)
+    - Total batch size:             8          (num_gpus * batch_size)
+    - Effective Batch size:         8          (num_gpus * batch_size * batch_accumulate)
+    - Iterations per epoch:         86         (len(train_loader))
+    - Gradient updates per epoch:   86         (len(train_loader) / batch_accumulate)
+
+[2023-05-24 14:47:28] INFO - super_gradients.training.sg_trainer.sg_trainer - Started training for 100 epochs (0/99)
+
+[2023-05-24 14:48:30] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/checkpoints/defects/ckpt_best.pth
+[2023-05-24 14:48:30] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.5261139273643494
+[2023-05-24 14:49:45] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/checkpoints/defects/ckpt_best.pth
+[2023-05-24 14:49:45] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.6332080364227295
+[2023-05-24 14:53:51] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/checkpoints/defects/ckpt_best.pth
+[2023-05-24 14:53:51] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.6493745446205139
+[2023-05-24 14:55:24] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/checkpoints/defects/ckpt_best.pth
+[2023-05-24 14:55:24] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.6962760090827942
+[2023-05-24 14:58:31] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/checkpoints/defects/ckpt_best.pth
+[2023-05-24 14:58:31] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.7213142514228821
+[2023-05-24 15:00:22] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/checkpoints/defects/ckpt_best.pth
+[2023-05-24 15:00:22] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.8288118243217468
+[2023-05-24 15:45:40] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/checkpoints/defects/ckpt_best.pth
+[2023-05-24 15:45:40] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.8299710750579834
+[2023-05-24 17:55:10] INFO - super_gradients.training.sg_trainer.sg_trainer - RUNNING ADDITIONAL TEST ON THE AVERAGED MODEL...
+[2023-05-24 17:55:16] INFO - super_gradients.common.sg_loggers.base_sg_logger - [CLEANUP] - Successfully stopped system monitoring process

@@ -1,0 +1,2 @@
+[2023-05-24 14:46:56] INFO - base_sg_logger.py - [CLEANUP] - Successfully stopped system monitoring process
+[2023-05-24 14:47:26] INFO - sg_trainer.py - Using EMA with params {'decay': 0.937, 'decay_type': 'threshold'}

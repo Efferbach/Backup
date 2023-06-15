@@ -1,0 +1,40 @@
+============================================================
+New run started at 2023-05-24.10:15:58.153338
+sys.argv: "/usr/local/lib/python3.10/dist-packages/ipykernel_launcher.py -f /root/.local/share/jupyter/runtime/kernel-a4fd2c65-c924-4a52-aaaa-55952c8ff341.json"
+============================================================
+The console stream is logged into /root/sg_logs/console.log
+Setuptools is replacing distutils.
+
+Caching annotations:   0%|          | 0/690 [00:00<?, ?it/s]
+Caching annotations:  67%|██████▋   | 461/690 [00:00<00:00, 4607.69it/s]
+Caching annotations: 100%|██████████| 690/690 [00:00<00:00, 4853.08it/s]
+
+Caching annotations:   0%|          | 0/66 [00:00<?, ?it/s]
+Caching annotations: 100%|██████████| 66/66 [00:00<00:00, 5045.27it/s]
+
+Caching annotations:   0%|          | 0/39 [00:00<?, ?it/s]
+Caching annotations: 100%|██████████| 39/39 [00:00<00:00, 3621.62it/s]
+Downloading: "https://sghub.deci.ai/models/yolo_nas_l_coco.pth" to /root/.cache/torch/hub/checkpoints/yolo_nas_l_coco.pth
+The console stream is now moved to /content/checkpoints/defects/console_May24_10_30_41.txt
+[2023-05-24 10:30:45] INFO - sg_trainer_utils.py - TRAINING PARAMETERS:
+    - Mode:                         Single GPU
+    - Number of GPUs:               1          (1 available on the machine)
+    - Dataset size:                 690        (len(train_set))
+    - Batch size per GPU:           8          (batch_size)
+    - Batch Accumulate:             1          (batch_accumulate)
+    - Total batch size:             8          (num_gpus * batch_size)
+    - Effective Batch size:         8          (num_gpus * batch_size * batch_accumulate)
+    - Iterations per epoch:         86         (len(train_loader))
+    - Gradient updates per epoch:   86         (len(train_loader) / batch_accumulate)
+
+[2023-05-24 10:30:45] INFO - sg_trainer.py - Started training for 100 epochs (0/99)
+
+  0%|          | 0/86 [00:00<?, ?it/s]Train epoch 0:   0%|          | 0/86 [00:00<?, ?it/s]Train epoch 0:   0%|          | 0/86 [00:00<?, ?it/s]
+[2023-05-24 10:30:45] INFO - base_sg_logger.py - [CLEANUP] - Successfully stopped system monitoring process
+Caching annotations:   0%|          | 0/690 [00:00<?, ?it/s]Caching annotations:  79%|███████▉  | 546/690 [00:00<00:00, 5451.78it/s]Caching annotations: 100%|██████████| 690/690 [00:00<00:00, 5424.10it/s]
+Caching annotations:   0%|          | 0/66 [00:00<?, ?it/s]Caching annotations: 100%|██████████| 66/66 [00:00<00:00, 5397.86it/s]
+Caching annotations:   0%|          | 0/39 [00:00<?, ?it/s]Caching annotations: 100%|██████████| 39/39 [00:00<00:00, 5473.21it/s]
+[2023-05-24 10:35:10] INFO - checkpoint_utils.py - License Notification: YOLO-NAS pre-trained weights are subjected to the specific license terms and conditions detailed in 
+https://github.com/Deci-AI/super-gradients/blob/master/LICENSE.YOLONAS.md
+By downloading the pre-trained weight files you agree to comply with these terms.
+[2023-05-24 10:35:20] INFO - sg_trainer.py - Using EMA with params {'decay': 0.937, 'decay_type': 'threshold'}

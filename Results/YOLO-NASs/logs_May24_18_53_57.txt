@@ -1,0 +1,77 @@
+[2023-05-24 18:51:11] INFO - super_gradients.common.crash_handler.crash_tips_setup - Crash tips is enabled. You can set your environment variable to CRASH_HANDLER=FALSE to disable it
+[2023-05-24 18:51:15] DEBUG - pip._internal.vcs.versioncontrol - Registered VCS backend: bzr
+[2023-05-24 18:51:15] DEBUG - pip._internal.vcs.versioncontrol - Registered VCS backend: git
+[2023-05-24 18:51:15] DEBUG - pip._internal.vcs.versioncontrol - Registered VCS backend: hg
+[2023-05-24 18:51:15] DEBUG - pip._internal.vcs.versioncontrol - Registered VCS backend: svn
+[2023-05-24 18:51:15] DEBUG - super_gradients.common.sg_loggers.clearml_sg_logger - Failed to import clearml
+[2023-05-24 18:51:15] DEBUG - super_gradients.modules - Failed to import pytorch_quantization: cannot import name 'Bottleneck' from partially initialized module 'super_gradients.training.models.classification_models.resnet' (most likely due to a circular import) (/usr/local/lib/python3.10/dist-packages/super_gradients/training/models/classification_models/resnet.py)
+[2023-05-24 18:51:15] DEBUG - hydra.core.utils - Setting JobRuntime:name=UNKNOWN_NAME
+[2023-05-24 18:51:15] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-05-24 18:51:15] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-05-24 18:51:15] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-05-24 18:51:16] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-05-24 18:51:16] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-05-24 18:51:16] WARNING - super_gradients.training.utils.quantization - Failed to import pytorch_quantization
+[2023-05-24 18:51:16] WARNING - super_gradients.training.utils.quantization.calibrator - Failed to import pytorch_quantization
+[2023-05-24 18:51:16] WARNING - super_gradients.training.utils.quantization.export - Failed to import pytorch_quantization
+[2023-05-24 18:51:16] WARNING - super_gradients.training.utils.quantization.selective_quantization_utils - Failed to import pytorch_quantization
+[2023-05-24 18:51:16] DEBUG - super_gradients.training.qat_trainer.qat_trainer - Failed to import pytorch_quantization:
+[2023-05-24 18:51:16] DEBUG - super_gradients.training.qat_trainer.qat_trainer - name 'QuantizedMetadata' is not defined
+[2023-05-24 18:51:16] DEBUG - super_gradients.sanity_check.env_sanity_check - pyparsing==2.4.7 does not satisfy requirement pyparsing==2.4.5
+[2023-05-24 18:51:16] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-05-24 18:51:17] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-05-24 18:51:17] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-05-24 18:51:53] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2023-05-24 18:51:53] INFO - super_gradients.training.utils.checkpoint_utils - License Notification: YOLO-NAS pre-trained weights are subjected to the specific license terms and conditions detailed in 
+https://github.com/Deci-AI/super-gradients/blob/master/LICENSE.YOLONAS.md
+By downloading the pre-trained weight files you agree to comply with these terms.
+[2023-05-24 18:52:03] INFO - super_gradients.training.sg_trainer.sg_trainer - Using EMA with params {'decay': 0.937, 'decay_type': 'threshold'}
+[2023-05-24 18:53:50] INFO - super_gradients.training.sg_trainer.sg_trainer - Using EMA with params {'decay': 0.937, 'decay_type': 'threshold'}
+[2023-05-24 18:53:53] DEBUG - tensorflow - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+[2023-05-24 18:53:54] DEBUG - h5py._conv - Creating converter from 7 to 5
+[2023-05-24 18:53:54] DEBUG - h5py._conv - Creating converter from 5 to 7
+[2023-05-24 18:53:54] DEBUG - h5py._conv - Creating converter from 7 to 5
+[2023-05-24 18:53:54] DEBUG - h5py._conv - Creating converter from 5 to 7
+[2023-05-24 18:53:55] DEBUG - jaxlib.mlir._mlir_libs - Initializing MLIR with module: _site_initialize_0
+[2023-05-24 18:53:55] DEBUG - jaxlib.mlir._mlir_libs - Registering dialects from initializer <module 'jaxlib.mlir._mlir_libs._site_initialize_0' from '/usr/local/lib/python3.10/dist-packages/jaxlib/mlir/_mlir_libs/_site_initialize_0.so'>
+[2023-05-24 18:53:55] DEBUG - jax._src.path - etils.epath found. Using etils.epath for file I/O.
+[2023-05-24 18:53:57] INFO - numexpr.utils - NumExpr defaulting to 2 threads.
+[2023-05-24 18:53:59] INFO - super_gradients.training.utils.sg_trainer_utils - TRAINING PARAMETERS:
+    - Mode:                         Single GPU
+    - Number of GPUs:               1          (1 available on the machine)
+    - Dataset size:                 690        (len(train_set))
+    - Batch size per GPU:           8          (batch_size)
+    - Batch Accumulate:             1          (batch_accumulate)
+    - Total batch size:             8          (num_gpus * batch_size)
+    - Effective Batch size:         8          (num_gpus * batch_size * batch_accumulate)
+    - Iterations per epoch:         86         (len(train_loader))
+    - Gradient updates per epoch:   86         (len(train_loader) / batch_accumulate)
+
+[2023-05-24 18:53:59] INFO - super_gradients.training.sg_trainer.sg_trainer - Started training for 100 epochs (0/99)
+
+[2023-05-24 18:54:44] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/checkpoints/defects/ckpt_best.pth
+[2023-05-24 18:54:44] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.007604964077472687
+[2023-05-24 18:55:24] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/checkpoints/defects/ckpt_best.pth
+[2023-05-24 18:55:24] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.3813408613204956
+[2023-05-24 18:56:00] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/checkpoints/defects/ckpt_best.pth
+[2023-05-24 18:56:00] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.5108422636985779
+[2023-05-24 18:56:36] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/checkpoints/defects/ckpt_best.pth
+[2023-05-24 18:56:36] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.5882452130317688
+[2023-05-24 18:58:28] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/checkpoints/defects/ckpt_best.pth
+[2023-05-24 18:58:28] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.6370599865913391
+[2023-05-24 18:59:16] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/checkpoints/defects/ckpt_best.pth
+[2023-05-24 18:59:16] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.6539472937583923
+[2023-05-24 19:01:31] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/checkpoints/defects/ckpt_best.pth
+[2023-05-24 19:01:31] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.6863391399383545
+[2023-05-24 19:02:14] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/checkpoints/defects/ckpt_best.pth
+[2023-05-24 19:02:14] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.7139549255371094
+[2023-05-24 19:03:04] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/checkpoints/defects/ckpt_best.pth
+[2023-05-24 19:03:04] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.7281844615936279
+[2023-05-24 19:03:59] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/checkpoints/defects/ckpt_best.pth
+[2023-05-24 19:03:59] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.7343334555625916
+[2023-05-24 19:04:45] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/checkpoints/defects/ckpt_best.pth
+[2023-05-24 19:04:45] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.8502450585365295
+[2023-05-24 19:21:19] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in /content/checkpoints/defects/ckpt_best.pth
+[2023-05-24 19:21:19] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.8531172871589661
+[2023-05-24 20:09:32] INFO - super_gradients.training.sg_trainer.sg_trainer - RUNNING ADDITIONAL TEST ON THE AVERAGED MODEL...
+[2023-05-24 20:09:35] INFO - super_gradients.common.sg_loggers.base_sg_logger - [CLEANUP] - Successfully stopped system monitoring process
